@@ -4,6 +4,7 @@ import './App.css';
 import BreadBakingChart from './components/BreadBakingChart'
 import GeorgianWordCloud from './components/GeorgianWordCloud'
 import WebDevSkillsChart from './components/WebDevSkillsChart'
+import LanguageFluencyChart from './components/LanguageFluencyChart'
 
 class App extends Component {
   render() {
@@ -30,9 +31,7 @@ class App extends Component {
             During my initial months in the office, I could barely understand anything when you talked to each other in Georgian. But you were patient, taking the time to explain hundreds of Georgian words, phrases, and cultural references (leaving little room for other languages).
           </p>
 
-          <p>
-            REPLACE: <b>language abilities chart - each language as a separate line, over time, with fluency as dependent axis</b>
-          </p>
+          <LanguageFluencyChart />
 
           <p>
             ზოგი სიტყვა და ფრაზა გამომადგა, ზოგი... ნაკლებად ;)
