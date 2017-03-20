@@ -1,37 +1,45 @@
-import { Line, VictoryAxis, VictoryChart, VictoryLine, VictoryScatter } from 'victory'
+import {
+  Line,
+  VictoryAxis,
+  VictoryChart,
+  VictoryLabel,
+  VictoryLine,
+  VictoryScatter
+} from 'victory'
+
 import React, { Component } from 'react';
 
 const breadBakedByMonth = [
-  {x: 'September, 2014', y: 0},
-  {x: 'October, 2014', y: 1},
-  {x: 'December, 2014', y: 3},
-  {x: 'January, 2015', y: 4},
-  {x: 'February, 2015', y: 4},
-  {x: 'March, 2015', y: 3},
-  {x: 'April, 2015', y: 2},
+  {x: 'Sep, 2014', y: 0},
+  {x: 'Oct, 2014', y: 1},
+  {x: 'Dec, 2014', y: 3},
+  {x: 'Jan, 2015', y: 4},
+  {x: 'Feb, 2015', y: 4},
+  {x: 'Mar, 2015', y: 3},
+  {x: 'Apr, 2015', y: 2},
   {x: 'May, 2015', y: 1},
   {x: 'June, 2015', y: 1},
   {x: 'July, 2015', y: 1},
-  {x: 'August, 2015', y: 1},
-  {x: 'September, 2015', y: 0},
-  {x: 'October, 2015', y: 0},
-  {x: 'November, 2015', y: 0},
-  {x: 'December, 2015', y: 0},
-  {x: 'January, 2016', y: 0},
-  {x: 'February, 2016', y: 0},
-  {x: 'March, 2016', y: 0},
-  {x: 'April, 2016', y: 0},
+  {x: 'Aug, 2015', y: 1},
+  {x: 'Sep, 2015', y: 0},
+  {x: 'Oct, 2015', y: 0},
+  {x: 'Nov, 2015', y: 0},
+  {x: 'Dec, 2015', y: 0},
+  {x: 'Jan, 2016', y: 0},
+  {x: 'Feb, 2016', y: 0},
+  {x: 'Mar, 2016', y: 0},
+  {x: 'Apr, 2016', y: 0},
   {x: 'May, 2016', y: 0},
   {x: 'June, 2016', y: 0},
   {x: 'July, 2016', y: 0},
-  {x: 'August, 2016', y: 0},
-  {x: 'September, 2016', y: 0},
-  {x: 'October, 2016', y: 0},
-  {x: 'November, 2016', y: 0},
-  {x: 'December, 2016', y: 0},
-  {x: 'January, 2017', y: 0},
-  {x: 'February, 2017', y: 0},
-  {x: 'March, 2017', y: 0}
+  {x: 'Aug, 2016', y: 0},
+  {x: 'Sep, 2016', y: 0},
+  {x: 'Oct, 2016', y: 0},
+  {x: 'Nov, 2016', y: 0},
+  {x: 'Dec, 2016', y: 0},
+  {x: 'Jan, 2017', y: 0},
+  {x: 'Feb, 2017', y: 0},
+  {x: 'Mar, 2017', y: 0}
 ]
 
 const axisStyle = {
@@ -70,7 +78,7 @@ class BreadBakingChart extends Component {
 
           <VictoryAxis
             dependentAxis
-            label='Loaves of bread'
+            label='Loaves of bread per month'
             style={axisStyle}
             tickFormat={tick => tick.toPrecision(1)}
           />
@@ -82,17 +90,22 @@ class BreadBakingChart extends Component {
           <VictoryScatter
             data={[
               {
-                x: "March, 2015",
-                y: 0
+                x: "Mar, 2015",
+                y: 3
               },
               {
-                x: "September, 2015",
-                y: 2
+                x: "Sep, 2015",
+                y: 0
               }
             ]}
-            dataComponent={<EventLine />}
-
-            labels={['Internship ends', 'Moved office']}
+            symbol='star'
+            style={{
+              labels: {
+                fontSize: 12
+              }
+            }}
+            labelComponent={<VictoryLabel dx={85} />}
+            labels={['March, 2015: Internship ends', 'Sep. 2015: New office, broken oven :(']}
           />
         </VictoryChart>
       </div>
