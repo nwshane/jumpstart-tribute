@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import BreadBakingChart from './components/BreadBakingChart'
 import GeorgianWordCloud from './components/GeorgianWordCloud'
+import WebDevSkillsChart from './components/WebDevSkillsChart'
 
 class App extends Component {
   render() {
@@ -23,12 +24,10 @@ class App extends Component {
             I started working as a JumpStart employee in early 2015, and became more serious about learning to program. With guidance from Jason and the other developers at JumpStart, and a whole lot of reading on the interwebs, I learned Rails and other important web dev skills.
           </p>
 
-          <p>
-            <b>REPLACE: Sideways bar chart with important web dev tools/skills</b>
-          </p>
+          <WebDevSkillsChart />
 
           <p>
-            During my initial months in the office, I could barely understand anything in your rapid-fire Georgian conversations. But all of you were patient, taking the time to explain hundreds of Georgian words, phrases, and cultural references (leaving little room for other languages).
+            During my initial months in the office, I could barely understand anything when you talked to each other in Georgian. But you were patient, taking the time to explain hundreds of Georgian words, phrases, and cultural references (leaving little room for other languages).
           </p>
 
           <p>
