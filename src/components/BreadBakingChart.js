@@ -1,5 +1,4 @@
 import {
-  Line,
   VictoryAxis,
   VictoryChart,
   VictoryLabel,
@@ -45,20 +44,6 @@ const breadBakedByMonth = [
 const axisStyle = {
   tickLabels: {
     fontSize: 12
-  }
-}
-
-class EventLine extends Component {
-  render() {
-    return (
-      <Line
-        x1={this.props.x}
-        x2={this.props.x}
-        y1={0}
-        y2={4}
-        {...this.props}
-      />
-    )
   }
 }
 
