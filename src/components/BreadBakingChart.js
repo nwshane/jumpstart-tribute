@@ -13,7 +13,7 @@ const breadBakedByMonth = [
   {x: 'Oct, 2014', y: 1},
   {x: 'Dec, 2014', y: 3},
   {x: 'Jan, 2015', y: 4},
-  {x: 'Feb, 2015', y: 4},
+  {x: 'Feb, 2015', y: 5},
   {x: 'Mar, 2015', y: 3},
   {x: 'Apr, 2015', y: 2},
   {x: 'May, 2015', y: 1},
@@ -43,7 +43,13 @@ const breadBakedByMonth = [
 
 const axisStyle = {
   tickLabels: {
-    fontSize: 12
+    fontSize: 10
+  },
+  ticks: {
+    stroke: 'grey'
+  },
+  axisLabel: {
+    fontSize: 10
   }
 }
 
@@ -51,10 +57,6 @@ class BreadBakingChart extends Component {
   render() {
     return (
       <div>
-        <h2>
-          Amount of Bread Baked at JumpStart Office
-        </h2>
-
         <VictoryChart height={200}>
           <VictoryAxis
             fixLabelOverlap

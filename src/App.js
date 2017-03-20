@@ -41,10 +41,6 @@ class App extends Component {
 
           <GeorgianWordCloud />
 
-          <aside>
-            მონაცემების წყარო: ნათანის პატარა ბლოკნოტები
-          </aside>
-
           <p>
             In the end, JumpStart for me has been more than just baking, programming, and Georgian. It’s been about you, my JumpStart colleagues! I’m ever grateful that I work at a place where I consider my colleagues my friends.
           </p>
@@ -62,7 +58,7 @@ class App extends Component {
           </p>
 
           <p>
-            P. S. If you find data inaccuracies in this article, please report them to Nino Macharashvili. ნათანი გაგიჟებულია, მედიტაციის კურსზე მიდის და ვერ დაგეხმარება.
+            P. S. If you find data inaccuracies in this article, please report them to Nino Macharashvili; ნათანი გაგიჟებულია, მედიტაციის კურსზე მიდის და ვერ დაგეხმარება.
           </p>
         </div>
       </div>
