@@ -2,7 +2,7 @@
   "name": "thank-you-jumpstart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nathanshane.me/jumpstart-tribute",
+  "homepage": "http://jumpstart-tribute.nathanshane.me",
   "dependencies": {
     "d3": "^4.7.3",
     "d3-timeline-chart": "^1.3.0",
