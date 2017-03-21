@@ -5,6 +5,7 @@ import BreadBakingChart from './components/BreadBakingChart'
 import GeorgianWordCloud from './components/GeorgianWordCloud'
 import WebDevSkillsChart from './components/WebDevSkillsChart'
 import LanguageFluencyChart from './components/LanguageFluencyChart'
+import NathanLovesJumpStart from './components/NathanLovesJumpStart'
 
 class App extends Component {
   render() {
@@ -43,12 +44,10 @@ class App extends Component {
             In the end, JumpStart for me has been more than just baking, programming, and Georgian. It’s been about you, my JumpStart colleagues! I’m ever grateful that I work at a place where I consider my colleagues my friends.
           </p>
 
-          <p>
-            REPLACE: <b>ნათანს უყვარს ჯამპსტარტი</b>
-          </p>
+          <NathanLovesJumpStart />
 
           <p>
-            I’ve had a wonderful time working, playing, and learning with you all over the past two and a half years. I’m continuously amazed by how talented each of you are and that you accepted me into your midst. A big thanks to each and every one of you, and make sure to stay in touch. :)
+            I’ve had a wonderful time working, playing, and learning with you all over the past two and a half years. I’m continuously amazed by how talented each of you are and that you accepted me into your midst. Thanks to each of you, and let's make sure to stay in touch. :)
           </p>
 
           <p>
@@ -57,6 +56,10 @@ class App extends Component {
 
           <p>
             P. S. If you find data inaccuracies in this article, please report them to Nino Macharashvili; ნათანი გაგიჟებულია, მედიტაციის კურსზე მიდის და ვერ დაგეხმარება.
+          </p>
+
+          <p>
+            P. P. S. I would have asked one of the designers to help me with this page, but then it wouldn't have been a surprise for them ;)
           </p>
         </div>
       </div>
