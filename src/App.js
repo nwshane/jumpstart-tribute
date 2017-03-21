@@ -59,7 +59,7 @@ class App extends Component {
           </p>
 
           <p>
-            P. P. S. I would have asked one of the designers to help me with this page, but then it wouldn't have been a surprise for them ;)
+            P. P. S. I would have asked one of the designers to help me with this page, but that would have ruined the surprise! (Don't judge my design skillz)
           </p>
         </div>
       </div>
