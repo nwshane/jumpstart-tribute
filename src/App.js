@@ -22,13 +22,13 @@ class App extends Component {
           <BreadBakingChart />
 
           <p>
-            I started working as a JumpStart employee in early 2015, and became more serious about learning to program. With guidance from Jason and the other developers at JumpStart, and a whole lot of reading on the interwebs, I learned Rails and other important web dev skills.
+            I started working as a JumpStart employee in early 2015, and became more serious about learning to program. With guidance from Jason and the other developers at JumpStart, and a whole lot of reading on the interwebs, I learned Rails and other important web dev skills:
           </p>
 
           <WebDevSkillsChart />
 
           <p>
-            During my initial months in the office, I could barely understand anything when you talked to each other in Georgian. But you were patient, taking the time to explain hundreds of Georgian words, phrases, and cultural references (leaving little room for other languages).
+            During my initial months in the office, I could barely understand anything when you talked to each other in Georgian. But you were patient, taking the time to explain hundreds of Georgian words, phrases, and cultural references (leaving little room in my brain for other languages).
           </p>
 
           <LanguageFluencyChart />
