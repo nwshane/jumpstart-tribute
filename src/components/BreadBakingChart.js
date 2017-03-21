@@ -57,7 +57,10 @@ class BreadBakingChart extends Component {
   render() {
     return (
       <div>
-        <VictoryChart height={200}>
+        <VictoryChart
+          height={150}
+          padding={{top: 10, bottom: 25, left: 40, right: 20}}
+        >
           <VictoryAxis
             fixLabelOverlap
             style={axisStyle}
