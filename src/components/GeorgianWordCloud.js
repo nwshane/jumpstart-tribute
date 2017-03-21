@@ -22,7 +22,6 @@ class GeorgianWordCloud extends Component {
           minSize={18}
           maxSize={35}
           tags={data}
-          className='simple-cloud'
         />
 
         <aside className='GeorgianWordCloud-source'>
