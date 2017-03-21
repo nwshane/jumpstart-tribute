@@ -56,7 +56,7 @@ const axisStyle = {
 class BreadBakingChart extends Component {
   render() {
     return (
-      <div>
+      <div className='BreadBakingChart'>
         <VictoryChart
           height={150}
           padding={{top: 10, bottom: 25, left: 40, right: 20}}

@@ -34,7 +34,7 @@ const rows = [
 class WebDevSkillsChart extends Component {
   render () {
     return (
-      <div>
+      <div className='WebDevSkillsChart'>
         <Chart
           chartPackages={['corechart', 'timeline']}
           chartType='Timeline'

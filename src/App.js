@@ -41,7 +41,7 @@ class App extends Component {
           <GeorgianWordCloud />
 
           <p>
-            In the end, JumpStart for me has been more than just baking, programming, and Georgian. It’s been about you, my JumpStart colleagues! I don't know if I can express this in words, so...
+            In the end, JumpStart for me has been more than just baking, programming, and Georgian. It’s been <span style={{textDecoration: 'line-through'}}>about oatmeal every morning</span> about you, my JumpStart colleagues! I don't know if I can express this in words, so...
           </p>
 
           <NathanLovesJumpStart />
@@ -54,12 +54,14 @@ class App extends Component {
             მარად, <br /> ნათანი
           </p>
 
+          <br />
+
           <p>
-            P. S. If you find data inaccuracies in this article, please report them to Nino Macharashvili; ნათანი გაგიჟებულია, მედიტაციის კურსზე მიდის და ვერ დაგეხმარება.
+            P. S. I would have asked one of the designers to help me with this page, but that would have ruined the surprise! (Just in case you judged my design skillz) ;)
           </p>
 
           <p>
-            P. P. S. I would have asked one of the designers to help me with this page, but that would have ruined the surprise! (Don't judge my design skillz)
+            P. P. S. If you find data inaccuracies in this article, please report them to Nino Macharashvili. ნათანი გაგიჟებულია, მედიტაციის კურსზე მიდის და ვერ დაგეხმარება.
           </p>
         </div>
       </div>

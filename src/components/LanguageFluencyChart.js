@@ -56,29 +56,31 @@ const rows = [
 class LanguageFluencyChart extends Component {
   render () {
     return (
-      <Chart
-        chartType='LineChart'
-        columns={columns}
-        rows={rows}
-        options={{
-          selectionMode: 'multiple',
-          curveType: 'function',
-          aggregationTarget: 'category',
-          lineWidth: 4,
-          vAxis: {
-            maxValue: 10,
-            minValue: 0,
-            ticks: [
-              {v: 2, f: 'Low Fluency'},
-              {v: 5, f: 'Moderate Fluency'},
-              {v: 8, f: 'High Fluency'}
-            ]
-          }
-        }}
-        graph_id="language-fluency-chart"
-        width="100%"
-        height="350px"
-      />
+      <div className='LanguageFluencyChart'>
+        <Chart
+          chartType='LineChart'
+          columns={columns}
+          rows={rows}
+          options={{
+            selectionMode: 'multiple',
+            curveType: 'function',
+            aggregationTarget: 'category',
+            lineWidth: 4,
+            vAxis: {
+              maxValue: 10,
+              minValue: 0,
+              ticks: [
+                {v: 2, f: 'Low Fluency'},
+                {v: 5, f: 'Moderate Fluency'},
+                {v: 8, f: 'High Fluency'}
+              ]
+            }
+          }}
+          graph_id="language-fluency-chart"
+          width="100%"
+          height="350px"
+        />
+      </div>
     )
   }
 }
