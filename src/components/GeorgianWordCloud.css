@@ -6,7 +6,6 @@
 }
 
   .GeorgianWordCloud-source {
-    text-align: left;
     font-size: 1.4rem;
-    width: 500px;
+    align-self: flex-start;
   }
