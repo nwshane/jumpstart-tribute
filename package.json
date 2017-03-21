@@ -11,7 +11,7 @@
     "react-dom": "^15.4.2",
     "react-google-charts": "^1.5.3",
     "react-tagcloud": "^1.1.0",
-    "victory": "^0.18.2"
+    "victory": "^0.18.3"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",
