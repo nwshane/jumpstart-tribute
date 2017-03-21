@@ -41,7 +41,7 @@ class App extends Component {
           <GeorgianWordCloud />
 
           <p>
-            In the end, JumpStart for me has been more than just baking, programming, and Georgian. It’s been about you, my JumpStart colleagues! I’m ever grateful that I work at a place where I consider my colleagues my friends.
+            In the end, JumpStart for me has been more than just baking, programming, and Georgian. It’s been about you, my JumpStart colleagues! I don't know if I can express this in words, so...
           </p>
 
           <NathanLovesJumpStart />
