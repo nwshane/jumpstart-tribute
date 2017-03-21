@@ -1,3 +1,12 @@
+.GeorgianWordCloud {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
   .GeorgianWordCloud-source {
+    text-align: left;
     font-size: 1.4rem;
+    width: 500px;
   }
