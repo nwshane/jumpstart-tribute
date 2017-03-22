@@ -26,3 +26,15 @@
   .App .NathanLovesJumpStart {
     margin: 50px 0;
   }
+
+  .LetterGoodbye {
+    float: left;
+  }
+
+  .LetterDate {
+    float: right;
+  }
+
+  .LetterBreak {
+    clear: both;
+  }
