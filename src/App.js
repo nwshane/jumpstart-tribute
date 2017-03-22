@@ -50,11 +50,15 @@ class App extends Component {
             I’ve had a wonderful time working, playing, and learning with you all over the past two and a half years. I’m continuously amazed by how talented each of you are and that you accepted me into your midst. Thanks to each of you, and let's make sure to stay in touch. :)
           </p>
 
-          <p>
+          <p className='LetterGoodbye'>
             მარად, <br /> ნათანი
           </p>
 
-          <br />
+          <p className='LetterDate'>
+            March 24, 2017
+          </p>
+
+          <br className='LetterBreak' />
 
           <p>
             P. S. I would have asked one of the designers to help me with this page, but that would have ruined the surprise! (Just in case you judged my design skillz) ;)
